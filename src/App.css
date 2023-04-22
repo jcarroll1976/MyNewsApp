@@ -1,4 +1,33 @@
+.newsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.headerTitle {
+  font-family: 'Roboto Serif', serif;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navListItem {
+  list-style: none;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  text-align: center;
+}
 
 .newsImage {
   width: 150px;
